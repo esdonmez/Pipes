@@ -8,7 +8,7 @@ prints again. Program continues with this routine until the end of the content i
 pressed. myCat can work alone with a valid argument, while myMore is to be used with myCat and 
 should be called from the command line as: 
     
-    /myCat inputFile = myMore 
+    ./myCat inputFile = myMore 
 
 When called with pipe that is the “=” symbol in our case, myCat will read the content of 
 inputFile, wirte it to pipe and fork. Child process is going to call myMore program and the 
