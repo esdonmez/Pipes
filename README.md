@@ -7,7 +7,9 @@ new lines and prints it to screen. When any key is pressed, it reads another 24 
 prints again. Program continues with this routine until the end of the content in pipe or q is 
 pressed. myCat can work alone with a valid argument, while myMore is to be used with myCat and 
 should be called from the command line as: 
+    
     /myCat inputFile = myMore 
+
 When called with pipe that is the “=” symbol in our case, myCat will read the content of 
 inputFile, wirte it to pipe and fork. Child process is going to call myMore program and the 
 content will be displayed with paging. 
